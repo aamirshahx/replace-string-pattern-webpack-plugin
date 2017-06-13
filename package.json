@@ -1,6 +1,6 @@
 {
-  "name": "replace-string-pattern-webpack-plugin",
-  "version": "1.0.0",
+  "name": "@cwlib/replace-string-pattern-webpack-plugin",
+  "version": "1.0.1",
   "description": "Webpack plugin to replace string pattern and filter src files by regex Edit",
   "main": "index.js",
   "scripts": {
