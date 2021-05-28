@@ -1,12 +1,14 @@
 {
   "name": "@external/replace-string-pattern-webpack-plugin",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Webpack plugin to replace string pattern and filter src files by regex Edit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nopantsmonkey/replace-string-pattern-webpack-plugin.git"
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/nopantsmonkey/replace-string-pattern-webpack-plugin#readme",
   "devDependencies": {
     "webpack-sources": "2.2.0"
+  },
+  "dependencies": {
+    "webpack-core": "^0.6.9"
   }
 }
